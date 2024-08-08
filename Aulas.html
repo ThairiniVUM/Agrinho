@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrot Ideias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #3f6648;
+            color: #fff;
+            text-align: center;
+        }
+        nav {
+            background: #353434;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+            transition: background 0.3s;
+        }
+        nav ul li a:hover {
+            background: #555;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #3f6648;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        video {
+            max-width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        footer {
+            background: #3f6648;
+            color: #fff;
+            text-align: center;
+            padding: 0.2px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Carrot Ideias</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="aulass.html">Aulas</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div id="inicio" class="content">
+            <h2>Vídeo Aula</h2>
+            <video controls>
+                <source src="seu-video.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento <code>video</code>.
+            </video>
+        </div>
+        
+        <div id="aulas" class="content">
+            <h2>Texto Explicativo</h2>
+            <p>Aqui você pode adicionar um texto explicativo sobre a aula. Explique os conceitos abordados, os objetivos da aula e qualquer outra informação relevante para o entendimento do conteúdo.</p>
+        </div>
+        
+        <div id="exercício" class="content">
+            <h2>Exercícios Objetivos</h2>
+            <ul>
+                <li><strong>Exercício 1:</strong> Pergunta ou enunciado do exercício 1.</li>
+                <li><strong>Exercício 2:</strong> Pergunta ou enunciado do exercício 2.</li>
+                <li><strong>Exercício 3:</strong> Pergunta ou enunciado do exercício 3.</li>
+                <li><strong>Exercício 4:</strong> Pergunta ou enunciado do exercício 4.</li>
+            </ul>
+            
+        </div>
+        
+
+    </div>
+    <br>
+    <footer>
+        <p>&copy; 2024 Carrot Ideias. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
